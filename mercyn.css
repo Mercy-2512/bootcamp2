@@ -1,0 +1,26 @@
+body{
+    background: url(back.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    color: black;
+    font-weight: 400;
+  }
+#gallery{
+    display:flex;
+    flex-direction: row;
+
+}
+#gallery img{
+    width: 100%;
+  height: auto;
+  border: 2px dotted white;
+  border-width: 2px;
+}
+#gallery img:hover{
+    border: 2px dotted  rebeccapurple;
+    cursor: pointer; 
+}
